@@ -1,0 +1,18 @@
+{
+    "name": "UIT Course Enrollment Helper",
+    "description": "A simple non-abusive CLI for automatic course enrollment.",
+    "repository": "https://github.com/bachle22/CourseEnrollmentHelper",
+    "logo": "https://www3.assets.heroku.com/assets/home/icons/langs/node_2x-35010fb73ca6d2849ba119b71c230a81a168f9e03efd22b348676153b1948595.png",
+    "keywords": ["node", "cli"],
+    "env": {
+        "STUDENT_ID": {
+            "description": "Your student ID."
+        },
+        "CREDENTIAL": {
+            "description": "Your session cookie."
+        },
+        "COURSES_LIST": {
+            "description": "Your course ids, seperated by blank spaces."
+        }
+    }
+}

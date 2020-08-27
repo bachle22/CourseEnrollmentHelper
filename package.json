@@ -1,0 +1,19 @@
+{
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "express": "^4.17.1",
+        "mathjs-expression-parser": "^1.0.2",
+        "ora": "^5.0.0",
+        "request": "^2.88.0"
+    },
+    "name": "uit-course-enrollment-helper",
+    "version": "2.1.0",
+    "description": "A simple non-abusive CLI for automatic course enrollment.",
+    "main": "app.js",
+    "devDependencies": {},
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Bach Le",
+    "license": "MIT"
+}

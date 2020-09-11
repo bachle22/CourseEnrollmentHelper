@@ -17,9 +17,9 @@ var studentID = process.env.STUDENT_ID ? process.env.STUDENT_ID : 'YOUR_STUDENT_
 var credential = process.env.CREDENTIAL ? process.env.CREDENTIAL : '';
 var coursesList = process.env.COURSES_LIST ? process.env.COURSES_LIST.split(' ') : [];
 var settings = {
-    check_interval: 1000,
-    enroll_interval: 1000,
-    retries: 100,
+    check_interval: 30000,
+    enroll_interval: 5000,
+    retries: 10,
 }
 
 var tableFormattedList;
